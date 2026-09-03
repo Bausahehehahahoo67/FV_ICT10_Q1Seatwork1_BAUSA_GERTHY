@@ -27,3 +27,19 @@ display(f"Countries I have visited: {', '.join(countries_now)}", target='countri
 display(f"Dictionary: {dictionary}", target='dictionarydiv')
 display(f"My favorite fruits are: {', '.join(my_favfruits)}", target='fruitsdiv')
 display(f"Days of the week: {', '.join(daysoftheweek)}", target='daysdiv')
+
+#below is part 2, calculations
+
+def ze_mathematics(e):
+    document.getElementById('output').innerHTML = "" # clears previous output
+    num1 = float(document.getElementById('neckhurts').value) # get 1st input
+    num2 = float(document.getElementById('aurafarm').value)  # get 2nd input
+    sum = num1 + num2 # use operator "+" to add and obtain sum
+    difference = num1 - num2 # use operator "-" to subtract and obtain difference
+    product = num1 * num2 # use operator "*" to multiply and obtain product
+    quotient = num1 / num2 # use operator "/" to divide and obtain quotient
+
+    display(sum, target = 'add') #display sum
+    display (difference, target = 'subtract') #display difference
+    display (product, target = 'multiply') #display product
+    display (quotient, target = 'divide') #display quotient
