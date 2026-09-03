@@ -23,10 +23,10 @@ display(f"My name is {name}", target='namediv')
 display(f"I am currently {age} years old", target='agediv')
 display(f"My height is {height2026} cm", target='heightdiv')
 display(f"Am I a new student?: {student_type}", target='studentdiv')
-display(f"Countries I have visited: {', '.join(countries_now)}", target='countriesdiv')
+display(f"Countries I have visited: {(countries_now)}", target='countriesdiv')
 display(f"Dictionary: {dictionary}", target='dictionarydiv')
-display(f"My favorite fruits are: {', '.join(my_favfruits)}", target='fruitsdiv')
-display(f"Days of the week: {', '.join(daysoftheweek)}", target='daysdiv')
+display(f"My favorite fruits are: {(my_favfruits)}", target='fruitsdiv')
+display(f"Days of the week: {(daysoftheweek)}", target='daysdiv')
 
 #below is part 2, calculations
 
