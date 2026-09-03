@@ -1,4 +1,4 @@
-from pyscript import display
+from pyscript import display, document
 
 display("Seatwork 1", target="titlediv") #literal object
 
@@ -19,7 +19,7 @@ dictionary = {
 my_favfruits = {"Mango", "Banana", "Lemon", "Blueberry", "Strawberry"} #this data type is a set
 daysoftheweek = ("Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday") #this data type is a tuple
 
-display(name, target='namediv')
+display(f"My name is {name}", target='namediv')
 display(age, target='agediv')
 display(height2026, target='heightdiv')
 display(student_type, target='studentdiv')
