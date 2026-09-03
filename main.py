@@ -1,6 +1,6 @@
 from pyscript import display, document
 
-display("Seatwork 1", target="titlediv") #literal object
+display(f"Welcome to my Seatwork 1", target="titlediv") #literal object
 
 #variable object
 
@@ -20,10 +20,10 @@ my_favfruits = {"Mango", "Banana", "Lemon", "Blueberry", "Strawberry"} #this dat
 daysoftheweek = ("Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday") #this data type is a tuple
 
 display(f"My name is {name}", target='namediv')
-display(age, target='agediv')
-display(height2026, target='heightdiv')
-display(student_type, target='studentdiv')
-display(countries_now, target='countriesdiv')
-display(dictionary, target='dictionarydiv')
-display(my_favfruits, target='fruitsdiv')
-display(daysoftheweek, target='daysdiv')
+display(f"I am currently {age} years old", target='agediv')
+display(f"My height is {height2026} cm", target='heightdiv')
+display(f"Am I a new student?: {student_type}", target='studentdiv')
+display(f"Countries I have visited: {', '.join(countries_now)}", target='countriesdiv')
+display(f"Dictionary: {dictionary}", target='dictionarydiv')
+display(f"My favorite fruits are: {', '.join(my_favfruits)}", target='fruitsdiv')
+display(f"Days of the week: {', '.join(daysoftheweek)}", target='daysdiv')
