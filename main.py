@@ -19,9 +19,9 @@ dictionary = {
 my_favfruits = {"Mango", "Banana", "Lemon", "Blueberry", "Strawberry"} #this data type is a set
 daysoftheweek = ("Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday") #this data type is a tuple
 
-display(f"My name is {name}", target='namediv')
+display(f"My name is: {name}", target='namediv')
 display(f"I am currently {age} years old", target='agediv')
-display(f"My height is {height2026} cm", target='heightdiv')
+display(f"My height is: {height2026} cm", target='heightdiv')
 display(f"Am I a new student?: {student_type}", target='studentdiv')
 display(f"Countries I have visited: {(countries_now)}", target='countriesdiv')
 display(f"Dictionary: {dictionary}", target='dictionarydiv')
