@@ -1,6 +1,6 @@
 from pyscript import display
 
-display("Determine the types below", target="div1") #literal object
+display("Seatwork 1", target="titlediv") #literal object
 
 #variable object
 
@@ -13,15 +13,17 @@ dictionary = {
          "color": "red",
          "car_brand": "Cadillac",
          "shoe_size": "8.5",
-         "best_friend": 
+         "best_friend": "Jericho",
 } #this is a dictionary, many things here
 
-my_favfruits = 
+my_favfruits = {"Mango", "Banana", "Lemon", "Blueberry", "Strawberry"} #this data type is a set
+daysoftheweek = ("Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday") #this data type is a tuple
 
-display(type(name), target='div1')
-display(type(age), target='div1')
-display(type(height), target='div1')
-display(type(is_student), target='div1')
-display(type(movies), target='div1')
-display(type(hobbies), target='div1')
-display(type(g), target='div1')
+display(name, target='namediv')
+display(age, target='agediv')
+display(height2026, target='heightdiv')
+display(student_type, target='studentdiv')
+display(countries_now, target='countriesdiv')
+display(dictionary, target='dictionarydiv')
+display(my_favfruits, target='fruitsdiv')
+display(daysoftheweek, target='daysdiv')
